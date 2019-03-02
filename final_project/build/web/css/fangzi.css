@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f5f6;
+}
+#myFocus{ 
+    width:650px; 
+    height:400px;
+}
+.pic img{
+    height: 400px;
+    width: 650px;
+}
+.header{
+    height: 100px;
+}
+.header .container{
+    margin-top: 0;
+}
+.daohang{
+    width: 1150px;
+    margin: 0 auto;
+}
+.daohang ul{
+    list-style-type: none;
+}
+.daohang ul li{
+    float: left;
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+.daohang ul li a{
+    line-height: inherit;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: white;
+}
+.login{
+    float: right;
+}
+.header-bot input{
+    width: 500px;
+    height: 36px;
+    line-height: 36px;
+    padding-left: 20px;
+    float: left;
+    margin-top: 5px;
+}
+.header-bot button{
+    background: #00ae66;
+    width: 120px;
+    height: 40px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 0;
+    display: block;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.header-bot a{
+    display: block;
+    height: 40px;
+    width: 120px;
+    text-decoration: none;
+    float: right;
+    margin-top: 5px;
+    color: black;
+    border: 1px solid black;
+    line-height: 40px;
+    text-align: center;
+    background-color: #f5f5f6;
+}
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 20px;
+}
+.header-top{
+    height: 50px;
+    background-color: #00ae66;
+}
+.header-bot{
+    height: 50px;
+    background-color: white;
+}
+
+.container-top{
+    height: 100px;
+    border-bottom: 1px solid #ebebeb;
+}
+.container-top h2{
+    line-height: 100px;
+    height: 100px;
+    max-width: 500px;
+    float: left;
+    margin-left: 20px;
+}
+.container-top button{
+    float: right;
+    position: relative;
+    top: 50%;
+    margin-top: -23px;
+    margin-right: 40px;
+    background: #00ae66;
+    width: 113px;
+    height: 45px;
+    border: 0;
+    display: block;
+    border-radius: 0 2px 2px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#myFocus{
+    margin-left: 20px;
+}
+.house-info{
+    margin-top: 20px;
+    padding-left: 40px;
+    float: left;
+    width: 430px;
+}
+.price{
+    position: relative;
+    height: 49px;
+    white-space: nowrap;
+}
+.total{
+    display: inline-block;
+    font-size: 46px;
+    line-height: 37px;
+    height: 38px;
+    color: #e4393c;
+    font-weight: bold;
+    letter-spacing: -1px;
+    overflow: hidden;
+}
+.unit{
+    display: inline-block;
+    margin-left: 7px;
+    font-size: 16px;
+    color: #e4393c;
+    height: 37px;
+    vertical-align: 2px;
+}
+.zf-room p{
+    font-size: 12px;
+    color: #333;
+    margin-top: 20px;
+    float: left;
+}
+.zf-room p i{
+    color: #888;
+    font-weight: 400;
+    font-style: normal;
+}
+.lf{
+    float: left;
+    width: 215px;
+}
+.rf{
+    width: 400px;
+}
+.saler-info{
+    margin-top: 20px;
+    padding-left: 40px;
+    float: left;
+    width: 430px
+}
+.saler-info p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.clear:after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+.c1{
+    box-shadow: 0 1px 3px rgba(13,3,9,0.2);
+    border-radius: 2px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+/*nav*/
+.nav{
+    width: 1150px;
+    height: 54px;
+    margin: 0 auto;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(13,3,9,0.2);
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.nav ul{
+    list-style-type: none;
+    width: 1150px;
+
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    height: 50px;
+    width: 120px;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    color: black;
+}
+.nav ul li a:hover{
+    background-color: #00ae66;
+    height: 54px;
+    line-height: 54px;
+    color: white;
+}.house-pic{
+    width: 1150px;
+    height: 530px;
+    clear: both;
+    margin: 0 auto;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(13,3,9,0.2);
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.house-map{
+    width: 1150px;
+    height: 530px;
+    clear: both;
+    margin: 0 auto;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(13,3,9,0.2);
+    border-radius: 2px;
+    margin-top: 20px;
+}
+h3{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.house-nav{
+    height: 462px;
+    width: 385px;
+    position: relative;
+    float: right;
+    right: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+.content-top{
+    height: 40px;
+    width: 385px;
+}
+.content-top ul{
+    list-style-type: none;
+    
+}
+.content-top ul li{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    width: 64px;
+    text-align: center;
+    background-color: #f5f5f5;
+    
+}
+.content-top ul li:hover{
+    background-color: white;
+}
+.content-top ul li a{
+    text-decoration: none;
+    color: black;
+}
+.content-bot{
+    height: 422px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.content-bot ul{
+    list-style-type: none;
+}
+.content-bot ul li{
+    width: 345px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.content-bot ul li:hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+.itemContent{
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+.content-name{
+    float: left;
+}
+.content-meter{
+    float: right;
+    margin-right: 20px;
+}
+.content-add{
+    height: 40px;
+    line-height: 40px;
+    color: #9c9fa1;
+}
+
+
+
+
+
+.copyright{
+    width: 100%;
+    height: 200px;
+    background-color: #222;
+    margin-top: 10px;
+    clear: both;
+}
+.copyright_content{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.copyright_content li{
+    list-style-type: none;
+    float: left;
+    width: 240px;
+    background: url(../images/line.png) no-repeat right center;
+    text-align: center;
+    line-height: 30px;
+}
+.copyright_content a{
+    text-decoration: none;
+    color: #999;
+    font-size: 18px;
+}
+.copyright_content li ul li a{
+    font-size: 14px;
+}
+
+/*搜索页面*/
+.select{padding:5px 0;border:#ddd 1px solid;border-radius:4px;width:1150px;margin:0 auto;font-size:12px}
+.select li{list-style:none;padding:10px 0 5px 100px}
+.select .select-list{border-bottom:#eee 1px dashed}
+.select dl{zoom:1;position:relative;line-height:24px;}
+.select dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+.select dt{width:100px;margin-bottom:5px;position:absolute;top:0;left:-100px;text-align:right;color:#666;height:24px;line-height:24px}
+.select dd{float:left;display:inline;margin:0 0 5px 5px;}
+.select a{display:inline-block;white-space:nowrap;height:24px;padding:0 10px;text-decoration:none;color:#039;border-radius:2px;}
+.select a:hover{color:black;background-color:#ebebeb}
+.select .selected a{font-weight: bold; color:black;background-color:#ebebeb}
+.select-result dt{font-weight:bold}
+.select-no{color:#999}
+.select .select-result a{padding-right:20px;background:#ebebeb url("../images/close.gif") right 9px no-repeat}
+.select .select-result a:hover{background-position:right -15px}
+
+
+.house-list{
+    width: 1150px;
+    margin: 0 auto;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(13,3,9,0.2);
+    border-radius: 2px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+.house-list ul{
+    list-style-type: none;
+    width: 1200px;
+    height: 1000px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.house-list ul li{
+    height: 170px;
+    width: 1150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 30px 0;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+}
+.house-list .img-left{
+    float: left;
+}
+.house-list .img-left img{
+    height: 170px;
+    width: 230px;
+}
+.house-list .img-right{
+    float: left;
+    margin-left: 20px;
+}
+.house-list .img-right a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+.house-list .img-right a:hover{
+    color: #00ae66;
+}
+.house-list .img-right p{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+.priceInfo{
+    position: absolute;
+    right: 0;
+    top: 110px;
+    margin-right: 260px;
+}
+.totalPrice{
+    text-align: right;
+    width: 130px;
+    font-size: 14px;
+    color: #db4c3f;
+}
+.totalPrice span{
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'tahoma';
+    margin-right: 5px;
+}
+.unitPrice{
+    text-align: right;
+    margin-top: 18px;
+    width: 130px;
+    font-size: 12px;
+    color: #394043;
+    position: relative;
+}
+/*分页*/
+.page{
+    height: 40px;
+    margin-top: 10px;
+    text-align: center;
+}
+.page a{
+    display: inline-block;
+    border: 1px solid #E8E8E8;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+.page a:link,.page a:visited{
+    color: #000;
+}
+.page a:hover,.page a:active{
+    color: #FFF;
+    background-color: #cc1b1b;
+}

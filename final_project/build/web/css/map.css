@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.header-top{
+    height: 50px;
+    width: 100%;
+    background-color: #00ae66;
+    border-bottom: #ddd solid 1px;
+}
+.daohang{
+    width: 1150px;
+    margin: 0 auto;
+}
+.daohang ul{
+    list-style-type: none;
+}
+.daohang ul li{
+    float: left;
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+.daohang ul li a{
+    line-height: inherit;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: white;
+}
+.login{
+    float: right;
+}
+.header-bot{
+    height: 50px;
+    width: 100%;
+    border: #ddd solid 1px;
+}
+.search-box{
+    float: left;
+    position: relative;
+
+}
+.search-box img{
+    position: relative;
+    text-align: right;
+    text-align: center;
+    top: 8px;
+}
+.search_text{
+    padding: 0 20px;
+    font-size: 13px;
+    border: none;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    outline: none;
+}
+.select-list{
+    float: left;
+    list-style-type: none;
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    border: #ddd solid 1px;
+    border-bottom: none;
+    border-top: none;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    float: left;
+}
+.select-list span{
+    color: black;
+    padding-left: 20px;
+}
+.select-list img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.select-list:hover img{
+    transform:rotate(180deg);
+}
+.select-list:hover ul{
+    display: block;
+}
+.select-list ul{
+    display: none;
+    z-index: 9999;
+    position: relative;
+    background-color: white;
+}
+.select-list ul li{
+    list-style-type: none;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    border: #ddd solid 1px;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-left: -1px;
+}
+.select-list ul li:hover{
+    background-color: #D3D3D3;
+}
+.select-list ul li a{
+    text-decoration: none;
+    color: #333;
+}
+.return-list{
+    float: right;
+    font-size: 14px;
+    color: #999;
+    height: 32px;
+    line-height: 32px;
+    width: 71px;
+    text-align: center;
+    border: #ddd solid 1px;
+    margin-top: 9px;
+    margin-right: 50px;
+}
+
+
+/*侧边栏*/
+li {
+    list-style: none;
+}
+.side_open {
+    position: fixed;
+    top: 102px;
+    right: 0;
+    width: 500px;
+    height: 800px;
+    background-color: gray;
+}
+.side_btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    left: -52px;
+    width: 50px;
+    height: 70px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+.side_btn li {
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border: #ddd solid 1px;
+    display: none;
+}
+.side_btn li:first-child {
+    display: block;
+}
+.before img{
+    transform: rotate(-90deg);
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+.after img{
+    transform: rotate(90deg);
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+/*右侧列表*/
+.house-list{
+    width: 500px;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid rgb(235, 235, 235);
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(13,3,9,0.2);
+    border-radius: 2px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+.house-list ul{
+    list-style-type: none;
+}
+.house-list ul li{
+    height: 130px;
+    width: 500px;
+    padding: 20px 0;
+    padding-left: 20px;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+}
+.house-list ul li:hover{
+    background-color: #f1f1f1;
+}
+.house-list .img-left{
+    float: left;
+}
+.house-list .img-left img{
+    height: 100px;
+    width: 130px;
+}
+.house-list .img-right{
+    float: left;
+    width: 370px;
+}
+.house-list .img-right a{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+.house-list .img-right a:hover{
+    color: #00ae66;
+}
+.house-list .img-right p{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+
+
+.priceInfo{
+    position: absolute;
+    right: 0;
+    top: 50px;
+    margin-right: 50px;
+}
+.totalPrice{
+    text-align: right;
+    width: 130px;
+    font-size: 14px;
+    color: #db4c3f;
+}
+.totalPrice span{
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'tahoma';
+    margin-right: 5px;
+}
+/*分页*/
+.page{
+    height: 40px;
+    text-align: center;
+}
+.page a{
+    display: inline-block;
+    border: 1px solid #E8E8E8;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+}
+.page a:link,.page a:visited{
+    color: #000;
+}
+.page a:hover,.page a:active{
+    color: #FFF;
+    background-color: #cc1b1b;
+}
